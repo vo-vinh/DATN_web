@@ -5,8 +5,8 @@ from Adafruit_IO import MQTTClient
 from uart import *
 
 AIO_FEED_ID = ["led", "fan"]
-AIO_USERNAME = "csee_group"
-AIO_KEY = "aio_sLkM17l4lvCC58aT5VEkj0qmcZSc"
+AIO_USERNAME = ""
+AIO_KEY = ""
 
 
 def connected(client):
